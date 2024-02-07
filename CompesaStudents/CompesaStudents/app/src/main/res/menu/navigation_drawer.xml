@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"/>
+    <item android:id="@+id/navigation_video"
+        android:title="Video Lectures"
+        android:icon="@drawable/ic_video"/>
+    <item android:id="@+id/navigation_ebook"
+        android:title="Ebooks"
+        android:icon="@drawable/ic_ebooks"/>
+
+    <item android:id="@+id/navigation_website"
+        android:title="Website"
+        android:icon="@drawable/ic_web"/>
+    <item android:id="@+id/navigation_phone"
+        android:title="Contact Us"
+        android:icon="@drawable/ic_phone"/>
+
+
+</menu>

@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Compesa Students</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/latobold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/latoregular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/latolight</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="about_college">Government Polytechnic, Karad is one of the oldest technical institute in Satara district of Maharashtra. The institute is a part of an academic brain child of visionary educational policy plan of late Y.B. Chavan, the First Chief Minister of Maharashtra State. Technical Education contributes substantially to the socio economic development of the country as a whole. The development and sustain of the industrial sector is entirely dependent on the availability of trained manpower. to perform the multidimensional activities needed to keep the wheel of industry running. Through education Late Y.B. Chavan saw the dream of great social reformation and overall  both-general and technical- for the people of Maharashtra. With this noble cause the institute was established in 1957.</string>
+    <string name="about_department">COMPUTER ENGINEERING Department was established in year 1958.It Started functioning under Government Polytechnic when the Institute was established.</string>
+    <string name="title_activity_pdf_viewer">PdfViewerActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+</resources>

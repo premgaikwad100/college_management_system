@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@android:color/white"  >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/topbar"
+            android:layout_width="match_parent"
+
+            android:layout_height="170dp"
+            android:background="@drawable/bottom_rounded">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="18dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Register"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="270dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/admin" />
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="170dp"
+
+            android:orientation="vertical"
+            android:layout_height="430dp">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:id="@+id/textField"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginTop="10dp"
+
+
+                android:padding="10dp"
+                app:boxStrokeColor="#256D85"
+                app:hintTextColor="@color/green1"
+                app:startIconTint="@color/green1">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:layout_width="300dp"
+
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+
+                    android:textColorHint="#256D85"
+                    android:id="@+id/regname"
+
+
+                    android:shadowColor="#3A3939" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textField1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+
+
+                android:padding="10dp"
+                app:boxStrokeColor="#256D85"
+                app:hintTextColor="@color/green1"
+                app:startIconTint="@color/green1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="300dp"
+
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:textColorHint="#256D85"
+                    android:id="@+id/regemail"
+
+                    android:inputType="textEmailAddress"
+
+                    android:shadowColor="#3A3939" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textField5"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+
+                android:padding="10dp"
+                app:boxStrokeColor="#256D85"
+                app:hintTextColor="@color/green1"
+                app:startIconTint="@color/green1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="300dp"
+
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:textColorHint="#256D85"
+                    android:id="@+id/regpass"
+
+                    android:inputType="textPassword"
+
+                    android:shadowColor="#3A3939" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textField6"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+
+                android:padding="10dp"
+                app:boxStrokeColor="#256D85"
+                app:hintTextColor="@color/green1"
+                app:startIconTint="@color/green1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="MobNo."
+                    android:textColorHint="#256D85"
+                    android:id="@+id/regmob"
+                    android:shadowColor="#3A3939" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Spinner
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:id="@+id/s1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="50dp"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="30dp"
+                android:text="Already Registered ?"
+
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="140dp"
+                android:textColor="@color/green1"
+                android:layout_height="30dp"
+                android:text="Login"
+                android:id="@+id/openLog"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+        <Button
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:id="@+id/elevatedButton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+
+            android:text="Register "
+            android:shadowColor="#256D85"
+            android:fontFamily="sans-serif-light"
+            android:backgroundTint="#256D85"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffff"
+            app:rippleColor="#256D85"
+            />
+
+    </LinearLayout>
+</ScrollView>

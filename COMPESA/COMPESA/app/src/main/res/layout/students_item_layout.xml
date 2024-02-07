@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:padding="6dp">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_margin="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginVertical="@dimen/text_margin"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:padding="12dp"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/studentName"
+                        android:text="Student"
+                        android:textColor="@color/textColor"
+                        android:textSize="18sp"
+                        android:fontFamily="@string/regular"/>
+                    <TextView
+                        android:fontFamily="@string/regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/studentYear"
+                        android:text="Year"
+                        android:textColor="@color/textColor"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:fontFamily="@string/regular"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/studentEmail"
+                        android:text="studentemail@gmail.com"
+                        android:textColor="@color/textColor"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:fontFamily="@string/regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/studentPhone"
+                        android:text="9734653456"
+                        android:textColor="@color/textColor"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:fontFamily="@string/regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/studentEnroll"
+                        android:text="Not yet Uploaded"
+                        android:textColor="@color/textColor"
+                        android:textSize="18sp"/>
+                     <TextView
+                        android:fontFamily="@string/regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/studentRoll"
+                        android:text="Not yet Uploaded"
+                        android:textColor="@color/textColor"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:fontFamily="@string/regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/studentAddress"
+                        android:text="Not yet Uploaded"
+                        android:textColor="@color/textColor"
+                        android:textSize="18sp"/>
+
+
+
+
+                </LinearLayout>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/studentsImage"
+                    android:layout_width="27dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+
+                    android:layout_weight="0.5"
+                    android:src="@drawable/man" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</ScrollView>

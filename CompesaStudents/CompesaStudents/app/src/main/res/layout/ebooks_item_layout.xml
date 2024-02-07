@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#20262E"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="#20262E"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/text_margin"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_pdf"/>
+        <TextView
+            android:id="@+id/ebookName"
+            android:layout_marginLeft="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Application Development"
+            android:textSize="@dimen/text_size1"
+            android:textColor="#E9E8E8"
+            android:fontFamily="@string/regular"/>
+        <ImageView
+            android:id="@+id/ebookDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-30dp"
+            android:src="@drawable/ic_download"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+
+</ScrollView>

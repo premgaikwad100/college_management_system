@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "665532066465",
+    "firebase_url": "https://gpkarad-79962-default-rtdb.firebaseio.com",
+    "project_id": "gpkarad-79962",
+    "storage_bucket": "gpkarad-79962.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665532066465:android:7179f2b08188828d389ee0",
+        "android_client_info": {
+          "package_name": "com.example.compesastudents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665532066465-ahrg9t2u4auf8equk61s12no1du9kbbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwg6j-EJoRLYkjP9OORkxBDMktCd7RDys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665532066465-ahrg9t2u4auf8equk61s12no1du9kbbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665532066465:android:b03c9bae74a882dc389ee0",
+        "android_client_info": {
+          "package_name": "com.example.gpkarad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665532066465-ahrg9t2u4auf8equk61s12no1du9kbbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwg6j-EJoRLYkjP9OORkxBDMktCd7RDys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665532066465-ahrg9t2u4auf8equk61s12no1du9kbbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

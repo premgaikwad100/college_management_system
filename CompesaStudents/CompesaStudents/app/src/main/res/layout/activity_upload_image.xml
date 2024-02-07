@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadImage">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/updateStudentImage"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/man"
+        android:layout_marginTop="36dp"
+        android:layout_centerHorizontal="true"
+        />
+      <TextView
+          android:layout_width="200dp"
+          android:layout_height="40dp"
+          android:layout_below="@+id/updateStudentImage"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="10dp"
+          android:text="Upload Image"
+          android:id="@+id/t1"
+          android:textColor="@color/black"
+          android:textStyle="bold"
+          android:gravity="center"
+          android:textSize="20sp"
+          />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/textField1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/t1"
+
+        android:layout_marginTop="10dp"
+
+
+        android:padding="10dp"
+        app:boxStrokeColor="#256D85"
+        app:hintTextColor="@color/green1"
+        app:startIconTint="@color/green1">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="300dp"
+
+            android:layout_height="wrap_content"
+            android:hint="Enrollment No"
+
+            android:textColorHint="#256D85"
+            android:id="@+id/regEnroll"
+
+
+            android:shadowColor="#3A3939" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/textField2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textField1"
+
+        android:layout_marginTop="10dp"
+
+
+        android:padding="10dp"
+        app:boxStrokeColor="#256D85"
+        app:hintTextColor="@color/green1"
+        app:startIconTint="@color/green1">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="300dp"
+
+            android:layout_height="wrap_content"
+            android:hint="Roll no"
+
+            android:textColorHint="#256D85"
+            android:id="@+id/regRollno"
+
+
+            android:shadowColor="#3A3939" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/textField3"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textField2"
+
+        android:layout_marginTop="10dp"
+
+
+        android:padding="10dp"
+        app:boxStrokeColor="#256D85"
+        app:hintTextColor="@color/green1"
+        app:startIconTint="@color/green1">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="300dp"
+
+            android:layout_height="wrap_content"
+            android:hint="Address"
+
+            android:textColorHint="#256D85"
+            android:id="@+id/regAddress"
+
+
+            android:shadowColor="#3A3939" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:id="@+id/uploadProfile"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textField3"
+        android:layout_marginTop="40dp"
+        android:text="Upload"
+        android:shadowColor="#256D85"
+        android:fontFamily="sans-serif-light"
+        android:backgroundTint="#256D85"
+        android:gravity="center"
+
+        android:textColor="#ffff"
+        app:rippleColor="#256D85"
+        />
+
+
+</RelativeLayout>
